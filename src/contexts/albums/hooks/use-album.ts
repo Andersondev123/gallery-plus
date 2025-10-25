@@ -24,15 +24,26 @@ export default function UseAlbum(){
                    
                 }))
             }
-            queryClient.invalidateQueries({queryKey: ["albums"]})
-            queryClient.invalidateQueries({queryKey: ["photos"]})
-            toast.success("Album criado com sucesso")
+            queryClient.invalidateQueries({queryKey: ["albums"]});
+            queryClient.invalidateQueries({queryKey: ["photos"]});
+            toast.success("Album criado com sucesso");
         }catch(error){
             toast.error("Erro ao criar álbum")
             throw error
         }
     }
+
+    async function deleteAlbum(albumId: string) {
+        try {
+            await api.delete(`/albums/${albumId}`);
+            toast.success("Álbum excluído com sucesso");
+            queryClient.invalidateQueries({ queryKey: ["albums"] });
+        } catch (error) {
+            toast.error("Erro ao excluir álbum");
+        }
+        }
     return{
-        createAlbum
+        createAlbum,
+        deleteAlbum
     }
 }
