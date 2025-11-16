@@ -1,5 +1,7 @@
 # Gallery Plus 🚀
 
+![Preview do projeto](.github/preview.jpg)
+
 Aplicação web desenvolvida durante o curso da Rocketseat para praticar **React**, integração com **API** e organização de projeto **Fullstack**.  
 O projeto foi feito utilizando **TypeScript**, garantindo tipagem e melhor organização do código.
 
@@ -30,25 +32,29 @@ O **Gallery Plus** permite gerenciar álbuns e fotos de forma simples. Conceitos
 
 ---
 
+## 🔗 Acesse o projeto
+👉 Deploy: https://gallery-pluss.up.railway.app/
+
+---
+
 ## Como rodar o projeto 🔧
 
+### 📥 Clonar o repositório
 
-
-Execute o comando de instalação
-
-
+```bash
+git clone https://github.com/Andersondev123/gallery-plus.git
+```
+### Execute o comando de instalação
+```bash
 pnpm install
-
-
-Em seguida, em um terminal, execute o servidor de back-end
-
-
+```
+### Em seguida, em um terminal, execute o servidor de back-end
+```bash
 pnpm dev-server
+```
 
-
-Em outro terminal, execute o servidor de front-end
-
-
+### Em outro terminal, execute o servidor de front-end
+```bash
 pnpm dev
-
+```
 
