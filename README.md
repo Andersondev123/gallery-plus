@@ -28,7 +28,7 @@ O **Gallery Plus** permite gerenciar álbuns e fotos de forma simples. Conceitos
 - Organização de componentes em **TypeScript**  
 - Uso de bibliotecas e ferramentas modernas como **Node.js**, **Express** e **Git**
 
-> Esse projeto foi desenvolvido seguindo as práticas do curso da Rocketseat, sem estudos teóricos adicionais, apenas implementação prática.
+> Esse projeto foi desenvolvido seguindo as práticas do curso da Rocketseat, com foco na implementação prática dos conceitos apresentados no curso.
 
 ---
 
